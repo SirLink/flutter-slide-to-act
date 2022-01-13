@@ -208,10 +208,8 @@ class SlideActionState extends State<SlideAction>
                                     widget.onSubmit!();
                                   }
                                 },
-                                child: Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 8.0),
-                                  child: Material(
+                                child:
+                                   Material(
                                     borderRadius: BorderRadius.circular(
                                         widget.borderRadius),
                                     child: Container(
@@ -239,7 +237,7 @@ class SlideActionState extends State<SlideAction>
                                             .primaryIconTheme
                                             .color,
                                   ),
-                                ),
+                                
                               ),
                             ),
                           ),
